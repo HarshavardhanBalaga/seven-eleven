@@ -1,0 +1,469 @@
+@font-face {
+    font-family: Harsha;
+    src: url(./Fonts/RightGrotesk-CompactDark.woff2);
+}
+
+@font-face {
+    font-family: normal;
+    src: url(./Fonts/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    color: #000;
+}
+#navtop{
+    font-family: normal;
+    height: 2.3vw;
+    width: 100%;
+    background-color: #14734F;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navtop h5{
+    font-size: 1vw;
+    font-weight: 500;
+    letter-spacing: -0.5px;
+}
+#navtop a{
+    font-size: 1vw;
+    font-weight: 500;
+    color: #fff;
+}
+
+#nav{
+    width: 100%;
+    border-bottom: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav-left{
+    font-family: Harsha;
+    display: flex;
+    font-size: 1.3vw;
+    align-items: center;
+    justify-content: center;
+    gap: 3.1vw;
+    font-weight: 700;
+    padding: 0.8vw 2.6vw;
+}
+
+#nav-left img{
+    height: 3.2vw;
+    width: 3vw;
+    width: auto;
+}
+
+#nav-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 3vw;
+}
+#nav-right i{
+    font-size: 2vw;
+
+}
+
+#nav-right p{
+    font-family: normal;
+    font-size: 0.9vw;
+    opacity: 0.9;
+    font-weight: 700;
+    margin-right: 1vw;
+}
+
+#content{
+    height: 95%;
+    width: 100%;
+    position: relative;
+}
+
+#content img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#content #content-text{
+    position: absolute;
+    top: 51%;
+    text-align: left;
+    left: 20%;
+    transform: translate(-50%,-50%);
+    width: 35%;
+}
+
+#content-text h1{
+    font-family: Harsha;
+    font-size: 3.9vw;
+    font-weight: 700;
+    margin-bottom: 1vw;
+}
+#content-text p{
+    font-family: normal;
+    font-size: 1.2vw;
+    font-weight: 300;
+    text-align: left;
+    margin-bottom: 1vw;
+    line-height: 1.3;
+}
+
+#content-text button{
+    font-family: Harsha;
+    font-size: 1.4vw;
+    font-weight: 500;
+    padding: 0.6vw 1.5vw;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    border-radius: 2vw;
+    cursor: pointer;
+}
+
+#content-text button:hover{
+    background-color: #14734F;
+}
+
+#bar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 10vw;
+}
+#bar #part1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1vw;
+    padding: 2vw;
+    transition: all 0.1s ease-in-out;
+}
+
+#bar #part1 h2{
+    font-family: Harsha;
+    font-size: 1.3vw;
+    font-weight: 500;
+    letter-spacing: -0.5px;
+}
+
+#bar #part1 img{
+    height: 4vw;
+}
+
+
+#goldPass{
+    position: relative;
+    width: 100%;
+    height: 18vw;
+}
+#goldPass img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#Gold-passText{
+    position: absolute;
+    width: 35%;
+    top: 49%;
+    left: 24%;
+    transform: translate(-50%,-50%);
+}
+
+#Gold-passText h1{
+    font-family: Harsha;
+    font-size: 2.8vw;
+    font-weight: 700;
+    margin-bottom: 1vw;
+}
+#Gold-passText p{
+    font-family: normal;
+    font-size: 1vw;
+    font-weight: 300;
+    margin-bottom: 1vw;
+}
+
+#Gold-passText button{
+    font-family: Harsha;
+    font-size: 1.4vw;
+    font-weight: 500;
+    padding: 0.6vw 1.5vw;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    border-radius: 2vw;
+    cursor: pointer;
+}
+
+#bar #part1:hover{
+    scale: 1.2;
+    background-color: #14734F;
+    border-radius: 2vw;
+    cursor: pointer;
+}
+
+#snackSnips{
+    height: 30vw;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin :6vw 0 ;
+}
+
+#snackSnips #part1{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#snackSnips #part1 #part1-img{
+    width: 90%;
+    height: 50%;
+}
+
+
+#snackSnips #part1 #SnackText{
+       width: 80%;
+       height: 50%;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+}
+
+
+#snackSnips #part1 #SnackText h1{
+    font-size: 2.8vw;
+    font-family: Harsha;
+    font-weight: 700;
+    margin-bottom: 1vw;
+    text-align: center;
+}
+#snackSnips #part1 #SnackText p{
+    font-size: 1.2vw;
+    font-family: normal;
+    font-weight: 400;
+    margin-bottom: 1vw;
+    text-align: center;
+}
+#snackSnips #part1 #SnackText button{
+    font-family: normal;
+    font-size: 1vw;
+    font-weight: 700;
+    padding: 0.8vw 1.9vw;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    border-radius: 2vw;
+    cursor: pointer;
+}
+
+
+#snackSnips #part1 #part1-img img{
+   height: 100%;
+   width: 100%;
+}
+
+
+#snackSnips #part2{
+    width: 25%;
+    height: 90%;
+    margin-left: 3vw;
+}
+
+#snackSnips #part2 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    
+}
+
+#snackSnips #part3{
+    width: 20%;
+    margin-left: 3vw;
+}
+
+#snackSnips #part3 h1{
+    font-size: 2vw;
+    width: 90%;
+    font-family: Harsha;
+    font-weight: 700;
+    margin-bottom: 1vw;
+}
+#snackSnips #part3 p{
+    font-size: 1.2vw;
+    width: 90%;
+    font-family: normal;
+    font-weight: 400;
+    margin-bottom: 1vw;
+}
+
+#snackSnips #part3 a{
+    color: #000;
+    text-decoration: none;
+    font-size: 1vw;
+    font-family: normal;
+    font-weight: 700;
+    margin-bottom: 1vw;
+    cursor: pointer;
+}
+
+#hiring{
+    width: 100%;
+    height: 7vw;
+    position: relative;
+  
+}
+#hiring img{
+    height: 100%;
+    width: 100%;
+    object-fit: center;
+}
+
+#hiring #elem{
+    position: absolute;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#elem #hireText h1{
+    font-family: Harsha;
+    text-align: center;
+    font-size: 2vw;
+    font-weight: 700;
+}
+#elem #hireText p{
+    font-family: normal;
+    font-size: 1.2vw;
+    font-weight: 300;
+}
+
+#elem #buttonDiv button{
+    font-family: normal;
+    font-size: 1vw;
+    font-weight: 700;
+    padding: 1vw 1.9vw;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    border-radius: 2vw;
+    cursor: pointer;
+    margin-left: 2.5vw;
+}
+
+#rewards{
+    width: 100%;
+    height: 30vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#reward1{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    background-color: #000;
+    color: #fff;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 5vw;
+}
+#reward2{
+    width: 50%;
+    height: 100%;
+    background-color: #2a3d36;
+}
+
+#reward2 img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+#rewards #reward1 h1{
+    font-family: Harsha;
+    font-size: 3vw;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 1vw;
+}
+#rewards #reward1 h2{
+    font-family: Harsha;
+    font-size: 1.7vw;
+    font-weight: 600;
+    text-align: center;
+}
+#rewards #reward1 h6{
+    font-family: normal;
+    font-size: 1.2vw;
+    font-weight: 400;
+    text-align: center;
+}
+
+#rewards #reward1 button{
+    font-family: normal;
+    font-size: 1vw;
+    font-weight: 700;
+    padding: 0.8vw 1.9vw;
+    border: none;
+    background-color: #14734F;
+    color: #fff;
+    border-radius: 2vw;
+    cursor: pointer;
+    margin-top: 1vw;
+}
+
+#buttons{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 4vw;
+}
+#buttons a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2vw;
+    font-family: normal;
+    font-weight: 500;
+    margin-bottom: 1vw;
+    cursor: pointer;
+}
+
+#buttons a:hover{
+    color: #023e27;
+}
+
+#buttons button:active{
+    scale: 0.95;
+}
+
